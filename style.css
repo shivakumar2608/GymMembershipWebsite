@@ -1,0 +1,121 @@
+body {
+    background: url(MuscleMain.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 0PX;
+    box-sizing: border-box;
+
+}
+
+
+body img {
+    /* margin: 0px; */
+    width: 100%;
+    display: none;
+    height: 650px;
+}
+p{
+    color: green;
+}
+
+.navigation {
+
+    color: white;
+    margin-top: 20px;
+}
+
+.navigation ul {
+    margin: 0px;
+    display: block;
+    overflow: auto;
+
+}
+
+.navigation li {
+    
+    color: white;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    margin: 5px;
+    list-style: none;
+}
+
+.navigation li:hover {
+    color: grey;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.applicationform {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-left: 73px;
+    margin-right: 810px;
+    padding: 49px;
+    padding-top: 23px;
+    color: white;
+}
+
+.inputt {
+    background-color: white;
+    margin: 4px;
+    margin-left: 35px;
+    padding: 4px;
+    text-align: center;
+    /* padding-right: 49px;
+    padding-left: 49px;*/
+    border-radius: 7px;
+    width: 290px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+.inputt:hover {
+    background-color: rgb(161, 160, 160);
+    color: black;
+}
+
+#submitbutton {
+    text-align: center;
+    width: 290px;
+    margin: 25px;
+    margin-left: 40px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 12px;
+    padding-bottom: 12px;
+}
+
+#submitbutton:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: rgb(8, 8, 8);
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style:unset;
+}
+#callus{
+    
+    padding: 10px;
+    float: right;
+    color: black;
+    margin-right: 25px;
+}
+#emailus{
+    
+    padding: 10px;
+    float: right;
+    color: black;
+    margin-right: 25px;
+}

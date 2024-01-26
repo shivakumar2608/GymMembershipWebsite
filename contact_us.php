@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+          .navigation {
+        
+        color: white;
+        margin-top: 20px;
+    }
+
+    .navigation ul {
+        margin: 0px;
+        display: block;
+        overflow: auto;
+
+    }
+
+    .navigation li {
+        
+        color: white;
+        padding: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        float: left;
+        margin: 5px;
+        list-style: none;
+    }
+
+    .navigation li:hover {
+        color: grey;
+        padding: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+        body{
+            background-image: url(contactus.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .contact {
+            text-align: center;
+            border: 1px solid whitesmoke;
+           border-radius: 12px ;
+            padding: 23px;            
+            margin: 112px;
+            margin-top: 205px;
+            color: white;
+            display: inline-block;
+            
+        }
+        .ss{
+            padding: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <a href="Shiva_fitness.php">
+                <li>Home</li>
+            </a>
+
+            <a href="#">
+                <li>About Us</li>
+            </a>
+
+        
+            <a href="contact_us.html">
+                <li>Contact us</li>
+            </a>
+            
+            <a href="#" id="callus">
+                <li>Call Us Now</li>
+            </a>
+
+            <a href="#" id="emailus">
+                <li>Email Us</li>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="contact">
+        <h2>Contact Details:-</h2>
+        <div class="ss">  
+            <b> Name:- </b> Jaligama Shiva Kumar
+        </div>
+        <div class="ss">
+            <b> Contact Details :- </b>709XXX1221
+
+        </div>
+        <div class="ss">
+            <b> Address :- </b>Shalibanda, Charminar, Old city.
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
